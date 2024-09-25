@@ -1,0 +1,38 @@
+:root{
+    --bg-black:#000000;
+    --bg-dark:
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#444cf7 0.45px, #e5e5f7 0.45px);
+    background-size: 9px 9px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0.4em;
+}
+p,ul,li{
+    margin-bottom: 0.5em;
+}
+.hero-section{
+    height: 100svh;
+    background-color: var(--bg-dark);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    max-width: 992px;
+    margin: auto;
+}
+.hero-desc{
+    font-size: 2rem;
+}
